@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 @media screen and (width >=320px) {
 	#some-id {
 		color: red;
@@ -10,6 +14,174 @@
 	}
 }
 
-.bodytext {
-	background-color: antiquewhite;
+* {
+	box-sizing: border-box;
+}
+
+.head-flag {
+	width: 320px;
+	height: 106px;
+	flex-shrink: 0;
+	background: #FFF8E9;
+	padding-left: 70px;
+}
+
+.cheesecake {
+	width: 320px;
+	height: 186px;
+	flex-shrink: 0;
+}
+
+.page-title {
+	width: 320px;
+	font-family: "ADLaM Display", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #205483;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #205483;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.icons {
+	width: 140px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	color: white;
+	font-family: Aboreto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border-radius: 14px;
+	background: #205483;
+	padding: 20px
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3,
+.preparation-content,
+.ingredients-content,
+.directions-content,
+.notes-content {
+	color: #000;
+	font-family: Afacad;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.preparation-head {
+	color: #FFF;
+	font-family: Aboreto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.ingredients-head,
+.directions-head,
+.notes-head {
+	color: #FFF;
+	font-family: Aboreto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3 {
+	border-radius: 47px;
+	border: 5px solid #205483;
+	box-sizing: border-box;
+	width: 300px;
+	height: auto;
+	padding: 20px;
+	white-space: normal;
+	text-align: left;
+	overflow: hidden;
+}
+
+
+
+.directions-head,
+.ingredients-head,
+.notes-head {
+	width: 300px;
+	height: auto;
+	background: #205483;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.preparation-head {
+	width: 300px;
+	height: auto;
+	background: #205483;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.preparation-content {
+	width: 300px;
+	height: auto;
+	text-align: left;
+	background: #FFF4E4;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-top: 0;
+	margin-bottom: 20px;
+	border: 5px solid #205483;
+}
+
+
+.ingredients-content {
+	width: 300px;
+	height: auto;
+	text-align: left;
+	background: #FFF4E4;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border: 5px solid #205483;
+}
+
+.directions-content {
+	width: 300px;
+	height: auto;
+	text-align: left;
+	background: #FFF4E4;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border: 5px solid #205483;
+}
+
+.notes-content {
+	width: 300px;
+	height: auto;
+	text-align: left;
+	background: #FFF4E4;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border: 5px solid #205483;
 }
