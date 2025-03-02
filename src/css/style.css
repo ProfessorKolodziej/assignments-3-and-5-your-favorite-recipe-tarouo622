@@ -14,6 +14,37 @@
 	}
 }
 
+@media screen and (min-width: 768px) {
+	.head-flag {
+		width: 768px;
+	}
+
+	.cheesecake {
+		width: 100%;
+		height: auto;
+	}
+
+	.page-title {
+		font-size: 48px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.head-flag {
+		width: 1024px;
+	}
+
+	.two-pictures-container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.paste,
+	.baked-paste {
+		width: 45%;
+	}
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -72,7 +103,8 @@
 	line-height: normal;
 	border-radius: 14px;
 	background: #205483;
-	padding: 20px
+	padding: 20px;
+	text-decoration: none;
 }
 
 .blender {
